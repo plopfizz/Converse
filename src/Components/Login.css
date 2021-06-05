@@ -1,7 +1,7 @@
 .login {
 width: 100%;
 min-height: 100vh;
-padding: 3rem;
+/* padding: 3rem; */
 background: var(--gray);
 display: flex;
 flex-direction: row;
@@ -9,9 +9,9 @@ align-items: center;
 justify-content: center;
 }
 .app__icon {
-height: 15rem;
+height: 20rem;
 width: auto;
-margin-right: 3rem;
+margin-top: -10rem;
 }
 form .error {
 padding: 1rem;
@@ -108,10 +108,13 @@ text-decoration: underline !important;
 @media only screen and (max-width: 1200px) {
     .login{
         flex-direction: column;
+        /* margin-top: -5rem; */
     }
     .app__icon {
-        height: 4rem;
-        margin-bottom: 3rem;
+        height: 8rem;
+        /* margin-top: none; */
+
+        /* margin-left: auto; */
         width:auto
         
         }

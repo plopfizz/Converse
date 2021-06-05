@@ -2,7 +2,7 @@ import {useState, useEffect} from "react";
 import "./Login.css";
 import {auth, provider, analytics} from '../firebase';
 import {motion} from 'framer-motion';
-import Icon from '../assets/icon.png';
+import Icon from '../assets/icon_1.png';
 
 function Login() {
 	
